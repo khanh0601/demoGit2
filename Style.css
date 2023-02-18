@@ -1,0 +1,16 @@
+.header-form{
+  background-color: #dddddd;
+  height: 5rem;
+  min-width: 50rem;
+}
+a{
+  color: black !important;
+  text-decoration: none;
+}
+@media (min-width: 576px) { 
+  div.container{
+   max-width: 960px !important;
+  }
+}
+
+

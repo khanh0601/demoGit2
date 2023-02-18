@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap v5 compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+  <link rel="stylesheet" href="Style.css">
+
+  <!-- Bootstrap v5 compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/product-detail.css">
+
+  <title>Form 1</title>
+</head>
+
+<body>
+
+  <div class="container-fluid header-form ">
+    <div class=" container  ">
+      <div class="row justify-content-between">
+        <div class=" col-12 col-lg-8  d-flex flex-row justify-content-start mt-lg-4 mt-1 ">
+          <div class="col-8 col-lg-4  position-relative  ">
+            <input type="text" placeholder=" Search records" class="ps-3 ">
+            <i class="fas fa-search fa-rotate-90 position-absolute  start-0 mt-2 mx-1"></i>
+            </input>
+          </div>
+          <div class="col-2 col-lg-2 " id="create">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#CreateProductModal"> <i class="fa-solid fa-plus"></i>
+              <b>Create</b></a>
+          </div>
+          <div class="col-2 col-lg-2  ">
+            <a href="#"><i class="fa-solid fa-arrow-rotate-right"></i>
+              <b>Refresh All</b></a>
+          </div>
+
+        </div>
+        <div
+          class="col-12 col-lg-4  d-flex justify-content-start justify-content-lg-end position-relative mt-lg-4 mt-1">
+          <div class="col-3 col-lg-6    ">
+            <i class="fa-solid fa-filter position-absolute start-70 mt-1 mx-1"></i>
+            <select name="" id="" class="w-100 ps-3 seach-select">
+              <option value="category">Category</option>
+              <option value="style">Style</option>
+            </select>
+          </div>
+          <div class="col-1 col-lg-1 ">
+            <i class="fa-solid fa-ellipsis-vertical mx-3"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="table-inf">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Product number</th>
+            <th>Product name</th>
+            <th>Unit Price(đ)</th>
+            <th>Unit</th>
+            <th>Category</th>
+            <th>Product type</th>
+            <th>Dimension</th>
+            <th>Create date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+          <tr>
+            <td>CP00001</td>
+            <td>Lorem Ipsum is simply dummy text </td>
+            <td>1,230,000</td>
+            <td>Tờ</td>
+            <td>1.4 Văn phòng phẩm</td>
+            <td>Service</td>
+            <td>63262006||||||||D802||6326|</td>
+            <td>20/10/2022</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div class=" d-flex justify-content-center">
+      <nav>
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">&laquo;</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item " aria-current="page">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item"><a class="page-link" href="#">...</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">&raquo;</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal modal-right fade" id="CreateProductModal" aria-hidden="false" tabindex="-1"
+    data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5>Create product</h5>
+        </div>
+        <div class="modal-body p-3">
+          <form>
+            <div class="row">
+              <div class="col-7">
+                <div class="row my-2">
+                  <div class="col-5">
+                    <div class="form-group">
+                      <label class="form-label">PID</label>
+                      <input type="text" name="pid" class="form-control" disabled value="CP00001">
+                    </div>
+                  </div>
+                </div>
+                <div class="row my-2">
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label class="form-label">Product name</label>
+                      <input type="text" name="p_name" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <div class="row my-2">
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label class="form-label">Product type</label>
+                      <input type="text" name="p_type" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <div class="row my-2">
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label class="form-label">Category</label>
+                      <select class="form-select" name="p_cat">
+                        <option>2.1.1 Dịch vụ bảo hiểm</option>
+                        <option>2.1.2 Dịch vụ bảo hiểm</option>
+                        <option>2.1.3 Dịch vụ bảo hiểm</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row my-2">
+                  <div class="col-4">
+                    <div class="form-group">
+                      <label class="form-label">Status</label>
+                      <select class="form-select" name="p_status" style="text-align: right; font-size:0.8rem">
+                        <option>Draft</option>
+                        <option>Complete</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-5">
+                <div class="row my-2">
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label class="form-label">Dimension</label>
+                      <input type="text" name="p_dimension" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <div class="row my-2">
+                  <div class="col-7">
+                    <label class="form-label">Price</label>
+                    <input type="text" name="p_price" class="form-control" style="text-align: right;">
+                  </div>
+                  <div class="col-5">
+                    <label class="form-label">&nbsp;</label>
+                    <select class="form-select" name="p_currency">
+                      <option>VNĐ</option>
+                      <option>USD</option>
+                      <option>EURO</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row my-2">
+                  <div class="col-7">
+                    <label class="form-label">Unit</label>
+                    <input type="text" name="p_unit" class="form-control" style="text-align: right;">
+                  </div>
+                  <div class="col-5">
+                    <label class="form-label">TAX</label>
+                    <select class="form-select" name="p_tax" style="text-align: right; font-size:0.8rem">
+                      <option>VAT08</option>
+                      <option>USD</option>
+                      <option>EURO</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br><br>
+            <button type="submit" id="btn-ok" class="btn btn-dark btn-sm" data-bs-dismiss="modal"
+              style="padding-left: 1.2rem; padding-right: 1.2rem; margin-right: 0.5rem;">OK</button>
+            <button type="button" id="btn-cancel" class="btn btn-secondary btn-sm"
+              data-bs-dismiss="modal">Cancel</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+
+</body>
+
+</html>
